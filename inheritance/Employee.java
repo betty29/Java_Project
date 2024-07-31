@@ -5,6 +5,7 @@ public class Employee extends Person {
     private String title;
 
     public Employee(){
+        super();
         System.out.println("In employee class");
     }
 
