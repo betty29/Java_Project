@@ -4,6 +4,10 @@ public class Employee extends Person {
     private String employeeId;
     private String title;
 
+    public Employee(){
+        System.out.println("In employee class");
+    }
+
     public String getEmployeeId() {
         return employeeId;
     }

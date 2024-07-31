@@ -6,6 +6,10 @@ public class Person {
         private int age;
         private String gender;
 
+        public Person(){
+            System.out.println("In Person class");
+        }
+
         public String getName(){
             return name;
         }
